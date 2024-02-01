@@ -1,0 +1,15 @@
+.component-field-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+    font-size: 24px;
+
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: transparent;
+
+    padding: 0 20px 0 20px;
+}

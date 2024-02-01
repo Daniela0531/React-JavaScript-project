@@ -1,0 +1,25 @@
+.authorization-style-comment {
+    display: flex;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+
+    height: 100%;
+    width: 100%;
+
+    opacity: 0.7;
+}
+
+.authorization-style-comment:hover {
+    display: flex;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+
+    height: 100%;
+    width: 100%;
+
+    opacity: 1;
+}

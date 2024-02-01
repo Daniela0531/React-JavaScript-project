@@ -1,0 +1,58 @@
+.button-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+
+    font-size: 24px;
+
+    font-style: normal;
+
+    opacity: 0.3;
+    /*background: var(--rg-secondary-main);*/
+    /*color: var(--rg-text-secondary);*/
+}
+
+.button-style:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+
+    font-size: 24px;
+
+    font-style: normal;
+
+    opacity: 1;
+    /*color: var(--rg-text-secondary);*/
+    /*background: var(--rg-secondary-main);*/
+}
+
+/*.authorization-style-button-position-wrapper {*/
+/*    display: flex;*/
+/*    flex-grow: 0;*/
+/*    justify-content: right;*/
+/*    background: transparent;*/
+/*    border: 0;*/
+
+/*    height: 5%;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.authorization-style-button-position {*/
+/*    display: flex;*/
+/*    flex-grow: 0;*/
+/*    justify-self: right;*/
+/*    margin-left: auto;*/
+/*    background: transparent;*/
+/*    border: 0;*/
+
+/*    height: 100%;*/
+/*    width: 12%;*/
+/*}*/

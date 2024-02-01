@@ -1,0 +1,42 @@
+body {
+    --text: #000000;
+
+    --black: #000000;
+    --white: #ffffff;
+    --rm-text-secondary: #741A5E;
+    --wr-text-secondary: #5E3297FF;
+
+    --rm-text-title: #F4FE5D;
+    --wr-text-title: #FEDB5D;
+
+    /* reader mode */
+
+    --rm-primary-light: #A8E5F7;
+    --wr-primary-light: #ADFFF5;
+
+    --rm-primary-middle: #137A84;
+    --wr-primary-middle: #138469;
+
+    --rm-secondary-middle: #4D1218;
+    --wr-secondary-middle: #4D1244;
+
+    --wr-secondary-dark: #30124D;
+
+    /* writer mode */
+    --rm-primary-main: #BDEBB7;
+    --wr-primary-main: #72DDEF;
+
+    --rm-secondary-main: #EBE846;
+    --wr-secondary-main: #FFDFAB;
+
+    --rm-background: #171916;
+    --wr-background: #121121;
+
+    /*registration*/
+    --rg-text-secondary: #91C0EF;
+    --rg-primary: #283D0E;
+    --rg-secondary-main: #741A5E;
+    --rg-title: #F8E699;
+    /*--rg-text-secondary: #F8E699;*/
+    --rg-secondary-light: #F8E699;
+}

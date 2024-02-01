@@ -1,0 +1,106 @@
+.write-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 2%;
+    background-image: url("../../images/write_page.jpg");
+}
+
+.write-page-panel-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    height: 10%;
+    width: 90%;
+}
+
+.write-page-panel-components-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.write-page-story-name-wrapper {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.write-page-story-load-picture-wrapper {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.write-page-story-chapter-and-episode-wrapper {
+    height: 100%;
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.write-page-text-field {
+    display: flex;
+    height: 85%;
+    width: 90%;
+    flex-grow: 0;
+    border-radius: 15px;
+    justify-content: center;
+
+    background: var(--wr-primary-light);
+    opacity: 0.8;
+}
+
+.write-page-text {
+    display: flex;
+    font-style: normal;
+    /*font-weight: 400;*/
+    font-size: 24px;
+    line-height: 32px;
+    height: 90%;
+    width: 90%;
+    flex-grow: 0;
+    padding: 2%;
+
+    color: var(--text);
+
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+        width: 2%;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 1px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    & {
+        scrollbar-face-color: transparent;
+    }
+
+}
+
+.write-page-back-button-wrapper {
+    display: flex;
+    flex-grow: 0;
+    justify-self: right;
+    margin-left: auto;
+    height: 5%;
+    width: 20%;
+    justify-content: flex-start;
+}
